@@ -28,3 +28,7 @@ jar{
         attributes 'Main-Class': 'patternLearn'
     }
 }
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
