@@ -1,4 +1,4 @@
-package Singleton;
+package Singleton.simple;
 
 public class SingleObject {
     //使用静态成员创建唯一的SingleObject对象
