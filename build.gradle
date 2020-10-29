@@ -1,12 +1,13 @@
 plugins {
     id 'java'
+    id 'war'
 }
 
 group 'com.wangzilin.pattern_learn'
 version '1.0-SNAPSHOT'
 
 
-apply plugin: 'war'
+//apply plugin:
 
 
 sourceCompatibility = 13
